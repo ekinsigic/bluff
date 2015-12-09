@@ -1,9 +1,10 @@
-// bluff.js
+//Bluff.
 $.fn.extend({
     bluff: function(options) {
         var defaults = {
             attr: 'href',
-            blank: '*'
+            blank: '*',
+            trigger: 'click'
         };
         options = $.extend(defaults, options);
         var shouldChangeState = true;
@@ -30,7 +31,7 @@ $.fn.extend({
                 target = window.location.hash.replace('#','');
             }
             shouldChangeState = false;
-            $(this + '[' + options.attr + '="' + target + '"]').trigger('click');
+            $(this + '[' + options.attr + '="' + target + '"]').trigger(options.trigger);
             shouldChangeState = true;
         }
     }
