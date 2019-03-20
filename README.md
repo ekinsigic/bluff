@@ -26,7 +26,7 @@ $('.some-selector').bluff({
 
 # Oh so, what does it *actually* do?
 
-Lets say ou have a slider, and you want your slides to change with your browser history.
+Lets say you have a slider, and you want your slides to change with your browser history.
 
 You add the bluff.js file after your jquery file, then initiate the function:
 
