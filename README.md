@@ -28,7 +28,7 @@ $('.some-selector').bluff({
 
 Lets say you have a slider, and you want your slides to change with your browser history.
 
-You add the bluff.js file after your jquery file, then initiate the function:
+You add the bluff.js to your document, then initiate the function:
 
 ```sh
 $('.slider-bullets').bluff({
@@ -38,4 +38,4 @@ $('.slider-bullets').bluff({
 });
 ```
 
-Now, when you click a slider bullet, the slide you go, gets recorded  in your browser history, and you can go back and forth between the slides, from your browser's back and forward buttons, as if they were seperate webpages.
+Now, when you click a slider bullet, the slide you go gets recorded in your browser history, and you can go back and forth between slides, from your browser's back and forward buttons, as if they were seperate webpages.
